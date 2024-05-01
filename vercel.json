@@ -1,4 +1,9 @@
 {
-    "buildCommand": "dart run bin/dart_backend_teste.dart",
-    "installCommand": "wget  -P / 'https://storage.googleapis.com/dart-archive/channels/stable/release/3.3.4/sdk/dartsdk-windows-x64-release.zip' && apt-get install unzip && unzip 'dartsdk-windows-x64-release.zip'"
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api"
+        }
+    ]
 }
