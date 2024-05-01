@@ -1,14 +1,4 @@
 {
-<<<<<<< HEAD
-  "public": true,
-  "functions": {
-    "api/**/*.dart": {
-      "runtime": "vercel-dev-runtime@0.0.3"
-    }
-  }
+    "buildCommand": "wget  -P / 'https://storage.googleapis.com/dart-archive/channels/stable/release/3.3.4/sdk/dartsdk-windows-x64-release.zip' && apt-get install unzip && unzip 'dartsdk-windows-x64-release.zip' -d /",
+    "installCommand": "choco install dart-sdk"
 }
-=======
-    "buildCommand": "dart run bin/dart_backend_teste.dart",
-"installCommand": "sudo apt-get update && sudo apt-get install dart"
-}
->>>>>>> parent of cb3edf8 (choco)
