@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
   "public": true,
   "functions": {
     "api/**/*.dart": { "runtime": "vercel-dev-runtime@0.0.3" }
   }
 }
+=======
+    "buildCommand": "dart run bin/dart_backend_teste.dart",
+    "installCommand": "sudo apt-get update && sudo apt-get install dart"
+}
+>>>>>>> parent of cb3edf8 (choco)
