@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "target": "ES2018",
+    "esModuleInterop": true,
+    "lib": ["ESNext"]
+  },
+  "include": ["src/index.ts", "src/utils/*.ts"],
+  "exclude": ["node_modules"]
+}

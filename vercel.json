@@ -1,4 +1,6 @@
 {
-    "buildCommand": "dart run bin/dart_backend_teste.dart",
-    "installCommand": "choco install dart-sdk"
+  "public": true,
+  "functions": {
+    "api/**/*.dart": { "runtime": "vercel-dev-runtime@0.0.3" }
+  }
 }
