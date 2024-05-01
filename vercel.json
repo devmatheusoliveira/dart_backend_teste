@@ -1,4 +1,4 @@
 {
     "buildCommand": "dart run bin/dart_backend_teste.dart",
-    "installCommand": "sudo apt-get update && sudo apt-get install dart"
+    "installCommand": "choco install dart-sdk"
 }
